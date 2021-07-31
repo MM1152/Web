@@ -2,7 +2,7 @@ var express = require('express')
 var app = express()
 
 app.listen(8000, function(req,res){
-    console.log("open");
+    console.log(__dirname);
 })
 
 app.get('/' ,function(req,res){
